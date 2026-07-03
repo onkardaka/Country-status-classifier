@@ -1,4 +1,3 @@
-# ML Model - 2 -  Country status classifier
 # MODEL 2: Country Development Status Classifier
 
 Welcome! This is **MODEL 2** in my Artificial Intelligence portfolio. In this project, I have trained a **Machine Learning** algorithm capable of classifying whether a country is considered "Developed" or "Developing" based on its socio-economic indicators.
