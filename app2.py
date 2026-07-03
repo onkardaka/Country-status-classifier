@@ -10,7 +10,8 @@ st.write("Mueve las barras para predecir si un país es Desarrollado o en Desarr
 modelo = joblib.load('modelo_clasificador.pkl') #yo le puse este nombre, tu  pon el que quieras y que sea idencio y que todos estos archivo esten en la misma carpeta
 
 #esto para crear barras deslizantes, los famosos sliders
-escuela = st.slider ("Años de Escolaridad (Schooling)", 0.0, 21.0, 12.0)  #estos últimos numeros son: Minimo, maximo y valor por defecto
+escuela = st.slider("Años de Escolaridad (Schooling)", 0.0, 21.0, 12.0)
+ingresos = st.slider("Índice de Composición de Recursos (Income Resources)", 0.0, 1.0, 0.5)
 
 # para que cuando el usuario mueva las barras, metemos los datos en el modelo
 #el modelo espera una lista con los datos de los dos variables que definimos : Escuela y ingresos
